@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(221, 203, 180);
+
+}
+.container{
+    width: 600px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+.begin{
+    display: flex;
+    flex-direction: row;
+}
+img{
+    height: 400px;
+    width: 300px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.te{
+    padding-left: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    letter-spacing: 3px;
+}
+.cct{
+   padding-left: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size: 25px; 
+    font-weight: 100;
+    font-family: "italic", sans-serif;
+    
+}
+.text{
+    padding-left: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size: 15px;
+    word-spacing: 5px;
+    line-height: 1.5;
+}
+.price{
+    display: flex;
+    flex-direction: row;
+    font-size: xx-large;
+    gap: 15px;
+    align-items: center;
+    padding-left: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.after{
+    font-size: small;
+    display: flex;
+    text-decoration: line-through;
+    color: darkgray;   
+}
+.before{
+    color: darkgreen;
+    font-weight: 100;
+}
+.cart{
+    padding-left: 15px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+    height: 35px;
+    width: 190px;
+    margin-left: 15px;
+    background-color: darkgreen;
+    border-radius: 5px;
+     
+}
+.trr{
+    padding-left: 40px;
+    color: aliceblue;
+    padding-top: 10px;
+}
+.cart:hover{
+    background-color: cadetblue;
+    cursor: pointer;
+}
